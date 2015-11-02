@@ -1,0 +1,5 @@
+<%= form_for @pet, url: {:action => 'create'} do |f|%>
+	<%= f.text_field :name %><br />
+	<%= f.text_field :age %><br />
+	<%= f.submit %>
+<% end %>

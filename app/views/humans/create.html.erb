@@ -1,0 +1,12 @@
+<table border=1px>
+	<tr>
+		<th>Name</th>
+		<th>Age</th>
+	</tr>
+	<tr>
+		<% @human.each do |h| %>
+			<tr><td><%= h.name%></td>
+			<td><%= h.age %></td></tr>
+		<% end %>
+	</tr>
+</table>
